@@ -1,0 +1,6 @@
+from django.conf.urls import url
+from . import views
+
+urlpatterns = [
+    url(r'^$', views.show_projects, name='show_project_list'),
+]
